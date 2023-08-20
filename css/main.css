@@ -1,0 +1,150 @@
+/* Customizes the Navigation bar by Giving Light Grey Color, with a bolded font size of 15 pixels aligned in Center*/
+#primary-nav{
+    background-color:lightgrey;
+    text-align:center;
+    font-size:15px;
+    font-weight:bold;
+    padding:3px;
+    margin:0px;
+    }
+
+/* Customizes the List Items after the Navigation Bar by Displaying it Inline and Giving a White Border*/
+
+nav li{
+    display:inline;
+    margin:-3px;
+    padding:25px;
+    border:2px solid white;
+
+     }
+     
+/* Gives a Black Border to Main Container*/
+main{
+     border:2px solid black;
+     padding:10px;
+     }
+/* Sets Covid Info Section to Right and Displays it Inline*/
+#covid-summary{
+     float:right;
+     display:inline;
+     text-align:left;
+     padding-right: 20px;
+     width:30%;
+
+     }
+/* Displays the List Items after Aside Container as INLINE*/
+aside li{
+
+     display:inline;
+     padding:10px;
+
+     }
+/*Aligns the Tiger-people Containter In Center*/
+#tiger-people{
+     text-align:center;
+     }
+/*Aligns Footer in Center*/
+footer{
+     text-align:center;
+     }
+/* Set all Hyperlinks within Navigation Bar to Light Blue Color, with a font size of 11 points, bolded and no Underline*/
+nav a {
+    color:#7bbed4;
+     font-family: Arial;
+     font-size:11pt;
+     font-weight: bold;
+     text-decoration: none;
+     }
+/* Set all Hyperlinks followed by Aside Contaikner to Light Blue Color, with a font size of 11 points, bolded and no Underline*/
+aside li {
+    color:#7bbed4;
+    text-decoration: none;
+     font-family: Arial;
+     font-size:11pt;
+     font-weight: bold;
+     }
+
+
+/* Gives a Light Grey box to all Featured Articles and Displays them INLINE*/
+#featured-art1,#featured-art2,#featured-art3{
+      background-color: lightgrey;
+      display: inline-block;
+      
+      margin-right:10px;
+      margin-left:15px;
+      width: 400px;
+      height: 250px;
+
+      padding:12px;
+      }
+/*Aligns Highights Section towards Left and Displays them INLINE */
+#highlights{
+    text-align:left;
+    display:inline;
+    width:70%;
+    }
+/* Gives a Light Grey box to all Featured Article no 4 and Displays them INLINE*/
+#featured-art4{
+    background-color: lightgrey;
+    display: inline-block;
+    margin-left:15px;
+    margin-right:10px;
+    width: 400px;
+    height: 250px;
+    
+    padding:12px;
+    }
+/*Sets a Margin of 4Pixels to the Featured Articles*/ 
+#featured-articles{
+    margin:10px;
+}
+
+/*Sets a Margin of 10 Pixels and Padding of 10 pixels to the Body Section*/
+body{
+    padding:10px;
+    margin:10px;
+    }
+/* Aligns The article-featured-img towards Left with specified Margins and borders*/
+.article-featured-img{
+    float:left;
+    height:250px;
+    width:350px;
+    margin-right:20px;
+    padding:0px 0px 20px 0px;
+    }
+/* Sets a Margin of 50 Pixels to para-div with a Font-family of Arial*/
+.para-div{
+
+    margin:50px;
+    font-size:11pt;
+    font-family: Arial;
+    }
+
+/* Gives a Black border to Content in Article Wookies*/
+#main-article-wookies{
+     border:2px solid black;
+     padding:10px;
+}
+/*Sets a custom padding to wookies page*/
+#pg-main-content-wookies{
+    padding:10px 100px;
+}
+
+/*Floats the Image in Human Cyborg page with a border of black and mentioned height and Width*/
+.article-featured-img-human{
+    float:left;
+    height:225px;
+    width:350px;
+    margin-right:20px;
+    border: 20px solid black;
+}
+/*Sets all Hyperlinks following Lists to Blue Color with No Underline*/
+li a{
+    color:#42bff5;
+    text-decoration: none;
+}
+/*Assigns Times New Roman Font and a Margin of 10 Pixel to all Paragraphs*/
+p{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
